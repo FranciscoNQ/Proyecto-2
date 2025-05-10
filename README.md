@@ -1,6 +1,6 @@
 ## Proyecto #2 - Bot de Scraping para Supermercados (MercadoLibre, Atomo, MasOnline)
 
-Bot de scraping desarrollado en Python que permite extraer datos de productos (nombre y precio) desde plataformas de supermercados como MercadoLibre, Átomo y MasOnline, con solo ingresar el enlace del producto.
+Bot de scraping desarrollado en Python que permite extraer datos de productos (nombre y precio) desde plataformas de supermercados  como MercadoLibre, Átomo y MasOnline (Por el momento, solo funciona con esos tres), con solo ingresar el enlace del producto.
 
 Al finalizar el proceso, los datos se guardan con pandas en un dataset que incluye: nombre del producto, precio, enlace, plataforma y fecha de extracción, luego se exporta en formato Excel o CSV, según la elección del usuario.
 
