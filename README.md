@@ -11,7 +11,7 @@ Todo el proceso se realiza a través de un menú interactivo que guía paso a pa
 - Python: Lenguaje principal del proyecto.
 - Pandas: Entrada, transformación y exportacion del dataset.
 - Request: Realizar solicitudes y obtener la informacion HTML de cada enlace.
-- BeautifulSoup: procesar el HTML extraído.
+- BeautifulSoup: Procesar el HTML extraído.
 - Time: Utilizado para agregar una pausa en cada solicitud.
 - Datatime: Registrar fecha actual en el dataset.
 
