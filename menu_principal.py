@@ -45,7 +45,7 @@ while True:
         if consulta_dataset == "2":
             print("\nInstrucciones para subir el archivo:\n1. El archivo debe ser un bloc de nota (Formato .txt)")
             print("2. Los enlaces deben estar ordenado, uno debajo del otro")
-            nombre_archivo = input("Ingrese el nombre del archivo(debe figura igual, incluyendo mayusculas y espacios): ").strip()
+            nombre_archivo = input("Ingrese el nombre del archivo(debe figura igual, incluyendo mayusculas, espacios y no debe figurar .txt): ").strip()
             
             lista = entrada_dataset_txt(nombre_archivo)
             
