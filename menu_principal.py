@@ -4,7 +4,7 @@ from funciones_pandas import guardar_dataset, entrada_dataset_txt
 
 #lista para utilizar como condicion
 numeros_condiciones = ["1", "2", "3"]
-
+numero_condiciones_2 = ["1", "2"]
 #Presentacion
 print("Bienvenido!!!\nEsta script solo funciona con los sitios web de Atomo, MasOnline y Mercadolibre!!!")
 consulta = str(input("Menu:\n1. Enlaces de las plataformas\n2. Crear dataset\n3. Salir\nIngrese el numero de su eleccion: "))
@@ -27,7 +27,7 @@ while True:
     if consulta == "2":
         consulta_dataset = str(input("\nOpciones: \n1. Ingresar los enlaces manualmente(uno por uno)\n2. Ingresar un archivo con formato (.txt) con los enlaces\n: "))
         
-        while consulta_dataset not in numeros_condiciones:
+        while consulta_dataset not in numero_condiciones_2:
            print("Lo ingresado no es valido, ingrese el numero de la opcion que seleccione")
            consulta_dataset = str(input("Opciones: \n1. Ingresar los enlaces manualmente(uno por uno)\n2. Ingresar un archivo con formato (.txt) con los enlaces\n: "))
            
